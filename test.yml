@@ -1,2 +1,5 @@
 lang: python
-python: - "3.8.8"
+python: 
+  - "3.8.8"
+script:
+  - python -m unittest test
